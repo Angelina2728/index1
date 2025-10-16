@@ -1,0 +1,113 @@
+/* Основные стили для страницы */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Заголовок */
+header {
+    background-color: #3f22e7;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 4.5em;
+}
+
+header p {
+    font-size: 3.7em;
+    margin-top: 10px;
+}
+
+/* Секция "Обо мне" */
+.about-me {
+    background-color: #13f7ff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+    font-size: 1.9em;
+    color: #3f22e7;
+}
+
+.about-me p {
+    font-size: 1.5em;
+    line-height: 1.6;
+}
+
+/* Секция "Мои хобби" */
+.hobbies {
+    background-color: #13f7ff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hobbies h2 {
+    font-size: 1.9em;
+    color: #3f22e7;
+}
+
+.hobbies ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.hobbies li {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Секция "Контакты" */
+.contacts {
+    background-color: #13f7ff;
+    padding: 30px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contacts h2 {
+    font-size: 1.9em;
+    color: #3f22e7;
+}
+
+.contacts ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contacts li {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.contacts a {
+    color: #3f22e7;
+    text-decoration: none;
+}
+
+.contacts a:hover {
+    text-decoration: underline;
+}
+
+/* Футер */
+footer {
+    background-color: #2c3e50;
+    color: #13f7ff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
